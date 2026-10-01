@@ -5,7 +5,7 @@ CHAPTERS = $(filter-out index.Rmd, $(wildcard *.Rmd))
 
 VPATH = docs/
 
-all: index.html syllabus.pdf
+all: index.html #syllabus.pdf
 
 ## Update book:
 index.html: index.Rmd chapters
